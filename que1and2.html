@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solution 1 and 2</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="form-cont">
+		<form onsubmit=" return Validate(this)" id="form">
+		 	<div class="inputText">
+		 		<strong style="font-size: 30px;">To Demostrate Form Validation</strong><br><br>
+  				<label for="fname">First name:</label><br>
+  				<input type="text" id="fname" name="fname" height="20"><br>
+  				<label for="lname">Last name:</label><br>
+  				<input type="text" id="lname" name="lname"><br><br>
+				<label for="Add">Address:</label><br>
+  				<input type="text" id="add" name="add"><br><br>
+  				<label for="otp">OTP</label><br>
+  				<input type="password" id="otp" name="otp" ><br><br>
+  		 	</div>
+            <div> Mode of Payment</div>
+  			<input type="radio" id="Credit Card" name="pmethod" value="Credit Card">
+  			<label for="Credit Card">Credit Card</label><br>
+  			<input type="radio" id="Debit Card" name="pmethod" value="Debit Card">
+  			<label for="Debit Card">Debit Card</label><br>
+  			<input type="radio" id="Cash" name="pmethod" value="Cash">
+  			<label for="Cash"> Cash</label><br><br>
+  			<input type="checkbox" id="Agree" name="Agree" value="Agree">
+  			<label for="Agree"> Agree to the terms and Condition</label><br>
+  			<label for="drop"> Location</label>
+  			<select id="Loc" name="drop">
+				<option value="0">Select</option>
+				<option value="1">Location 1</option>
+				<option value="2">Location 2</option>
+				<option value="3">Location 3</option>
+			</select>
+  			<div>
+  			<input type="submit" value="Submit">
+  			<input type="reset">
+  			</div>
+</form>
+	</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
